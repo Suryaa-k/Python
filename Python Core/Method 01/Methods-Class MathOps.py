@@ -13,6 +13,3 @@ class MathOps:
 print(MathOps.is_even(5))
 Obj1=MathOps(10)
 print(Obj1.is_even(Obj1.num))
-
-
-
