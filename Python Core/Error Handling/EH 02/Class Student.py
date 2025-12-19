@@ -3,9 +3,22 @@
 
 class Student:
     def __init__(self):
-        self.marks=0
-    def set_marks(self,m):
-        if m<0 or m>100:
-            raise ValueError("Msg")
-        self.marks=m
+        self.marks = 0
+
+    def set_marks(self, marks):
+        if marks < 0 or marks > 100:
+            raise ValueError("Marks must be between 0 and 100")
+        self.marks = marks
+
+
+# --- main code ---
+s = Student()
+
+try:
+    m = int(input("Enter marks (0-100): "))
+    s.set_marks(m)
+    print("Marks are:", s.marks)
+except ValueError as e:
+    print("Error:", e)
+
         
