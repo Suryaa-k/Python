@@ -57,3 +57,26 @@
 # A.m1()
 # A.m2()
 # A.m3(90)
+
+#Q1 
+# class Book:
+#     tb=0
+#     def __init__(self,title,author):
+#         self.title=title
+#         self.author=author
+#         Book.tb+=1
+#     @classmethod
+#     def m1(cls,bs):
+#         t,a=bs.split("-")
+#         return cls(t,a)
+#     def pname(self):
+#         print(self.title)
+#     @staticmethod
+#     def prating(rat):
+#         print(rat)
+
+# b1=Book("Hi","Hello")
+# b2=Book.m1("H-Hello")
+# b1.pname()
+# b2.pname()  
+# print(Book.tb) 
