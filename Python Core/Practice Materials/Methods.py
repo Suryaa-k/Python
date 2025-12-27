@@ -35,7 +35,7 @@
 # print(list(map(lambda x:x**2,l)))
 # print(list(filter(lambda x: True if x%2==0 else False,l)))
 # import functools
-# print(functools.reduce(lambda a,b:a*b,l)) 
+# print(functools.reduce(lambda a,b:a*b,l))
 
 # class A:
 #     x=10

@@ -4,4 +4,3 @@
 # Module C: class Dog that inherits from both Animal and Walkable
 # Demonstrate method resolution order (MRO) by calling overridden methods and 
 # printing the MRO.
-
