@@ -1,0 +1,2 @@
+Hello from custom context manager!
+This demonstrates __enter__ and __exit__.

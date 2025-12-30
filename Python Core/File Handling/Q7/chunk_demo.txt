@@ -1,0 +1,2 @@
+Python file handling with context managers is powerful and safe.
+This demonstrates chunked reading and cursor control precisely.

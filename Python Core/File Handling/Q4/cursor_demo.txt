@@ -1,0 +1,3 @@
+Python file handling is easy to learn.
+This demonstrates cursor position control.
+seek() and tell() work together perfectly.

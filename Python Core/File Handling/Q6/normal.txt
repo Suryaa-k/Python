@@ -1,0 +1,2 @@
+Hello from @contextmanager!
+File will be safely closed.
