@@ -1,0 +1,1 @@
+# 22 Write a program to find the factorial of each element in a list using recursion.
