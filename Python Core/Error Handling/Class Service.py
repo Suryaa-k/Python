@@ -17,4 +17,5 @@ class Service:
 
 s = Service()
 s.do_task(10, 2)   
-s.do_task(10, 0)   
+s.do_task(10, 0)
+#qwerty
